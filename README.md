@@ -80,3 +80,31 @@ In VS Code do the following:
 }
 ```
 
+### Setting Up Python
+
+All credit goes to J Vats and their post here: https://medium.com/geekculture/installing-python-3-x-development-environment-on-macos-a64c0141b20c
+
+1. Install Xcode from the App Store
+
+2. Install Python3
+
+```zsh
+brew install python
+```
+
+3. Check version installed
+
+```zsh
+❯ python3 --version
+Python 3.8.9
+```
+
+4. (Optional) Store all virtual environments in one location
+
+For me that's in my `Development` folder
+
+```zsh
+mkdir python-virtual-environments && cd python-virtual-environments
+```
+
+

@@ -57,3 +57,26 @@ Other configuration considerations, [Color Schemes](https://awesomeopensource.co
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
 
+Now set the theme in your `~/.zshrc` file. For example, `nano ~/.zshrc` and for `ZSH_THEME` set the value to `powerlevel10k/powerlevel10k`
+
+8) Configure PowerLevel10k
+
+Close and open iTerm2 and then follow the prompts. If you need to re-run the prompts then execute `p10k configure`
+
+9) Configure VS Code
+
+If like to use the terminal within VSCode then you will need to make change to the font to support some of the Powerline features.
+
+In VS Code do the following:
+
+- Hit `Cmd+Shift+P`
+- Type `Prefrence: Open Settings (JSON)`, hit Enter
+- In that file include the following:
+
+```
+{
+    "terminal.integrated.fontFamily": "Cascadia Code PL",
+    "editor.fontFamily": "Cascadia Code PL"
+}
+```
+

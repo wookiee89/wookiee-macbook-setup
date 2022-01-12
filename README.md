@@ -80,7 +80,7 @@ In VS Code do the following:
 }
 ```
 
-### Setting Up Python
+### Installing Python3
 
 All credit goes to J Vats and their post here: https://medium.com/geekculture/installing-python-3-x-development-environment-on-macos-a64c0141b20c
 
@@ -107,4 +107,4 @@ For me that's in my `Development` folder
 mkdir python-virtual-environments && cd python-virtual-environments
 ```
 
-
+### Installing NodeJS
